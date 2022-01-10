@@ -1,0 +1,22 @@
+baseURL: https://blog.nacly.net/
+languageCode: en-us
+title: HKC
+theme: "PaperMod"
+
+params:
+  disableThemeToggle: true
+
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: posts
+          name: posts
+          url: /posts/
+          weight: 20
+        - identifier: shop
+          name: shop
+          url: https://shop.nacly.net
+          weight: 30
