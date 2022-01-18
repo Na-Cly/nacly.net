@@ -5,12 +5,13 @@ theme: "PaperMod"
 
 params:
   disableThemeToggle: true
+  mainSections: about
 
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: guides
+          name: guides
+          url: /guides/
           weight: 10
         - identifier: posts
           name: posts
@@ -19,4 +20,12 @@ menu:
         - identifier: shop
           name: shop
           url: https://shop.nacly.net
-          weight: 30
+          weight: 40
+        - identifier: group buys
+          name: group buys
+          url: /gbs/
+          weight: 40
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 50
