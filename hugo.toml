@@ -1,5 +1,5 @@
 baseurl = "http://nacly.net"
-title = "johndoe"
+title = "Homestead Creations Co."
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -51,7 +51,11 @@ style = "github-dark"
   icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
-
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight = 2
+  url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
 
 # Menu links
 [[menu.main]]
