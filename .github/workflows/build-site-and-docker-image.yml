@@ -25,7 +25,7 @@ jobs:
         with:
           registry: ghcr.io
           username: na-cly
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.TOKEN }}
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
