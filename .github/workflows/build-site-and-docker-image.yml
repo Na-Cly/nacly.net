@@ -12,6 +12,12 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - name: set lower case owner name
+        run: |
+          echo "OWNER_LC=${OWNER,,}" >>${GITHUB_ENV}
+        env:
+          OWNER: '${{ OWNER_LC }}'
+
       - uses: actions/checkout@v3
         with:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
@@ -24,7 +30,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: ${{ OWNER_LC }}
           password: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Hugo
@@ -57,7 +63,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/na-cly/nacly.net:latest
+            ghcr.io/${{ OWNER_LC }}/nacly.net:latest
           labels: |
             org.opencontainers.image.source=${{ github.event.repository.html_url }}
             org.opencontainers.image.created=${{ steps.prep.outputs.created }}
