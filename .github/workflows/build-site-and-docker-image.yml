@@ -57,7 +57,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/nacly.net:latest
+            ghcr.io/na-cly/nacly.net:latest
           labels: |
             org.opencontainers.image.source=${{ github.event.repository.html_url }}
             org.opencontainers.image.created=${{ steps.prep.outputs.created }}
