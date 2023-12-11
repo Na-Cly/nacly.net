@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Designer, woodworker, creator"
   description = ""
   keywords = "blog,design,woodworking,keyboards,electronics"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "images/hcc.png"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
@@ -51,14 +51,4 @@ style = "github-dark"
   icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
-[[params.social]]
-  name = "Discord"
-  icon = "fa fa-discord fa-2x"
-  weight = 2
-  url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
 
-# Menu links
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
