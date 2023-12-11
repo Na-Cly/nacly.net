@@ -49,16 +49,7 @@ jobs:
               touch -r "$file".gz "$file"
           done
 
-      - name: Compress tor static files
-        run: |
-          cd tor
-          for file in $(find . -type f)
-          do
-              zopfli "$file"
-              rm "$file"
-              touch -r "$file".gz "$file"
-          done
-
+     
       - name: Build and push to Github Packages Docker Registry
         id: docker_build
         uses: docker/build-push-action@v4
