@@ -14,8 +14,8 @@ style = "github-dark"
 [params]
   author = "nacly"
   info = "Designer, woodworker, creator"
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
+  description = ""
+  keywords = "blog,design,woodworking,keyboards,electronics"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
@@ -45,23 +45,15 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/na-cly/"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
+
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
