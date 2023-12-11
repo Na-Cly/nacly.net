@@ -12,7 +12,7 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "nacly"
+  #author = "nacly"
   info = "Designer, woodworker, creator"
   description = ""
   keywords = "blog,design,woodworking,keyboards,electronics"
