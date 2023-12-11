@@ -34,10 +34,7 @@ jobs:
           extended: true
 
       - name: Build clearnet
-        run: hugo --config clearnet_config.yml --destination ./public
-
-      - name: Build Tor
-        run: hugo --config tor_config.yml --destination ./tor
+        run: hugo --config hugo.toml --destination ./public
 
       - name: Install zopfli
         run: sudo apt-get install -y --no-install-recommends zopfli
@@ -69,7 +66,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/blog:latest
+            ghcr.io/${{ github.repository_owner }}/nacly.net:latest
           labels: |
             org.opencontainers.image.source=${{ github.event.repository.html_url }}
             org.opencontainers.image.created=${{ steps.prep.outputs.created }}
