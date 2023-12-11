@@ -1,6 +1,6 @@
 baseurl = "http://nacly.net"
 title = "Homestead Creations Co."
-theme = "hugo-coder"
+theme = "hugo-fresh"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
