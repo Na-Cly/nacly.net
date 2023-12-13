@@ -51,4 +51,9 @@ style = "github-dark"
   icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://instagram.com/homesteadcreationsco?igshid=OGQ5ZDc2ODk2ZA=="
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight = 2
+  url = "https://discord.com/users/161642393639059457"
 
