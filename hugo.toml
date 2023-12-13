@@ -54,6 +54,6 @@ style = "github-dark"
 [[params.social]]
   name = "Discord"
   icon = "fa fa-discord fa-2x"
-  weight = 2
+  weight = 3
   url = "https://discord.com/users/161642393639059457"
 
