@@ -6,9 +6,7 @@ languageCode: en-us
 
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 # Disables warnings
-disableKinds:
-- taxonomy
-- taxonomyTerm
+
 markup:
   goldmark:
     renderer:
@@ -44,17 +42,7 @@ params:
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
-    clientlogos:
-    - logo: systek
-      url: https://google.com
-    - logo: tribe
-      url: https://stefma.github.io/hugo-fresh/
-    - logo: kromo
-      url: https://github.com/StefMa/hugo-fresh
-    - logo: infinite
-      url: https://hugo-fresh.vercel.app/
-    - logo: gutwork
-      url: https://bulma.io/
+
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
@@ -187,4 +175,3 @@ params:
       icon: twitter
     - link: https://bitbucket.org/#
       icon: bitbucket
-    bulmalogo: true
