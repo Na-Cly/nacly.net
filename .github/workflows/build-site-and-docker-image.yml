@@ -34,7 +34,7 @@ jobs:
           extended: true
 
       - name: Build clearnet
-        run: hugo --config hugo.toml --destination ./public
+        run: hugo --config hugo.yaml --destination ./public
 
       - name: Install zopfli
         run: sudo apt-get install -y --no-install-recommends zopfli
